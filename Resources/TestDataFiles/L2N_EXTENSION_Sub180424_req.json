@@ -1,0 +1,250 @@
+{
+	"header": {
+		"requestorApp": "CCW-SUB-UI",
+		"entityId": "Sub180424",
+		"applicationName": "CCW-SUB-UI",
+		"transactionDate": 1571771710994,
+		"currencyCode": "USD",
+		"priceListId": 1441,
+		"priceListName": "Global Price List - ASIA-PAC",
+		"subscriptionId": "Sub180424",
+		"debug": "Y"
+	},
+	"lines": [
+		{
+			"remainingTerm": 1,
+			"renewalTerm": 0.0,
+			"prePay": 1,
+			"billingModel": "ANNUAL",
+			"remainingTermPurchaseDate": 1,
+			"lines": [
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451120",
+					"itemName": "A-SPK-NU-M3",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 29.5,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 18.585,
+						"monthlyCredit": 0,
+						"listPriceVersion": 6,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 37,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451122",
+					"itemName": "SVS-SPK-SUPT-BAS",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 3,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 37,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451124",
+					"itemName": "A-SPK-NU-MC-X",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451125",
+					"itemName": "A-SPK-NU-M1-C1WS-X",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451126",
+					"itemName": "A-SPK-NU-M2-X",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451127",
+					"itemName": "A-SPK-NU-WXSTG-X",
+					"itemClassification": "XAAS",
+					"quantity": 10,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 10,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451129",
+					"itemName": "A-SPK-NU-CMR-25-X",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451130",
+					"itemName": "A-SPK-VOIP",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451121",
+					"itemName": "A-SPK-NU-TNU+I",
+					"itemClassification": "XAAS",
+					"quantity": 1,
+					"listPrice": 35.5,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 1,
+						"unitNetPrice": 22.365,
+						"monthlyCredit": 0,
+						"listPriceVersion": 5,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 37,
+						"usageQuantity": 0
+					}
+				},
+				{
+					"chargeType": "Recurring",
+					"lineType": "SOFTWARE",
+					"lineId": "152451128",
+					"itemName": "A-SPK-NU-RMSTG-X",
+					"itemClassification": "XAAS",
+					"quantity": 5,
+					"listPrice": 0,
+					"duration": 1,
+					"action": "NOCHANGE",
+					"rateTableProtectionFlag": "Y",
+					"sbpReferenceCopy": {
+						"quantity": 5,
+						"unitNetPrice": 0,
+						"monthlyCredit": 0,
+						"listPriceVersion": 1,
+						"pricingTerm": 1.0,
+						"unitNetDiscount": 20,
+						"usageQuantity": 0
+					}
+				}
+			],
+			"lineType": "SOFTWARE",
+			"lineId": "152451119",
+			"itemName": "A-SPK-NAMED-USER",
+			"itemClassification": "XAAS",
+			"quantity": 1,
+			"listPrice": 0,
+			"duration": 1,
+			"action": "EXTENSION",
+			"rateTableProtectionFlag": "Y",
+			"sbpReferenceCopy": {
+				"duration": 12.0,
+				"quantity": 1,
+				"unitNetPrice": 0,
+				"renewalTerm": 0.0,
+				"prePay": 12.0
+			}
+		}
+	]
+}

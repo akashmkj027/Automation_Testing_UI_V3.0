@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProcessPricingConsumer xmlns="http://www.cisco.com/cixs2.0/oagis">
+    <ns1:ApplicationArea xmlns:ns1="http://www.openapplications.org/oagis/9">
+        <ns1:CreationDateTime>2018-10-12-07:00</ns1:CreationDateTime>
+        <ns1:BODID>NetPricing</ns1:BODID>
+    </ns1:ApplicationArea>
+    <DataArea>
+        <ns2:Process xmlns:ns2="http://www.openapplications.org/oagis/9">
+            <ns2:ActionCriteria>
+                <ns2:ActionExpression actionCode="Process" expressionLanguage="token">NetPricing</ns2:ActionExpression>
+            </ns2:ActionCriteria>
+        </ns2:Process>
+        <PricingConsumer>
+            <ConsumerName>QUOTING</ConsumerName>
+            <TransactionNumber>4717986841</TransactionNumber>
+            <ApplicationName>QUOTING</ApplicationName>
+            <IntendedUse>Internal Business Use</IntendedUse>
+            <RequestorApp>PDR</RequestorApp>
+            <AutoApply>No</AutoApply>
+            <TransactionDate>2019-09-24-07:00</TransactionDate>
+            <PromotionFilter>
+                <DealRegistrationRequired>Both</DealRegistrationRequired>
+            </PromotionFilter>			
+            <ns3:CurrencyCode xmlns:ns3="http://www.openapplications.org/oagis/9">USD</ns3:CurrencyCode>
+            <FederalFlag>false</FederalFlag>
+            <CreatedBy>thaymore</CreatedBy>
+            <PricingEventCode>LINE</PricingEventCode>
+            <EndCustomerPartyProfile>
+                <AlternatePartyIds>
+                    <PartyId>
+                        <ns4:ID xmlns:ns4="http://www.openapplications.org/oagis/9">12345</ns4:ID>
+                        <IdType>CR</IdType>
+                    </PartyId>
+                </AlternatePartyIds>
+                <GeographicalArea>
+                    <Country>
+                        <Code>US</Code>
+                    </Country>
+                </GeographicalArea>
+            </EndCustomerPartyProfile>
+            <CustomerPartyProfile>
+			<AlternatePartyIds>
+                    <PartyId>
+                        <ns4:ID xmlns:ns4="http://www.openapplications.org/oagis/9">17808</ns4:ID>
+                        <IdType>CR</IdType>
+                    </PartyId>
+                </AlternatePartyIds>
+            </CustomerPartyProfile>
+            <ShipToPartyProfile>
+                <GeographicalArea>
+                    <Country>
+                        <Code>US</Code>
+                    </Country>
+                </GeographicalArea>
+            </ShipToPartyProfile>
+            <BillToPartyProfile>
+                <GeographicalArea>
+                    <Country>
+                        <Code>US</Code>
+                    </Country>
+                </GeographicalArea>
+            </BillToPartyProfile>
+            <InstalledPartyProfile>
+                <GeographicalArea>
+                    <Country>
+                        <Code>US</Code>
+                    </Country>
+                </GeographicalArea>
+            </InstalledPartyProfile>
+            <PriceListReference>
+                <ns7:DocumentID xmlns:ns7="http://www.openapplications.org/oagis/9">
+                    <ns7:ID>999999122</ns7:ID>
+                </ns7:DocumentID>
+                <ns8:Name xmlns:ns8="http://www.openapplications.org/oagis/9">Global Price List India-FTWZ</ns8:Name>
+            </PriceListReference>
+            <SalesPath>
+                <ns9:Code xmlns:ns9="http://www.openapplications.org/oagis/9">1-TIER</ns9:Code>
+            </SalesPath>
+            <GeographicalArea>
+                <Theater/>
+                <Country>
+                    <Code>US</Code>
+                </Country>
+            </GeographicalArea>
+            <PricingConsumerLine>
+                <LineNumber>5193355020</LineNumber>
+                <LineId>5193355020</LineId>
+                <RootParentLineId>5193355020</RootParentLineId>
+                <ParentLineId>5193355020</ParentLineId>
+                <SalesPath>
+                    <ns16:Code xmlns:ns16="http://www.openapplications.org/oagis/9">1-TIER</ns16:Code>
+                </SalesPath>
+                <Item type="Product">
+                    <ns17:ServiceIndicator xmlns:ns17="http://www.openapplications.org/oagis/9">false</ns17:ServiceIndicator>
+                    <ProductNumber>WS-C2960S-24TS-L</ProductNumber>
+                    <RefurbishedIndicator>false</RefurbishedIndicator>
+                </Item>
+                <ns18:Quantity unitCode="EA" xmlns:ns18="http://www.openapplications.org/oagis/9">2</ns18:Quantity>
+                <TradeInCredit>
+                    <Amount>0</Amount>
+                </TradeInCredit>
+                <EndCustomerPartyProfile>
+                    <AlternatePartyIds>
+                        <PartyId>
+                            <ns19:ID xmlns:ns19="http://www.openapplications.org/oagis/9">12345</ns19:ID>
+                            <IdType>CR</IdType>
+                        </PartyId>
+                    </AlternatePartyIds>
+                    <GeographicalArea>
+                        <Country>
+                            <Code>US</Code>
+                        </Country>
+                        <LocationCode>CA</LocationCode>
+                    </GeographicalArea>
+                </EndCustomerPartyProfile>
+                <ShipToPartyProfile>
+                    <GeographicalArea>
+                        <Country>
+                            <Code>US</Code>
+                        </Country>
+                    </GeographicalArea>
+                </ShipToPartyProfile>
+                <PriceListReference>
+                    <ListPrice>3811.00</ListPrice>
+                </PriceListReference>
+                <DiscountTradeInIndicator>false</DiscountTradeInIndicator>
+                <EndCustomerType>NON-NAMED</EndCustomerType>
+            </PricingConsumerLine>
+            <DealScope>REGULAR DEAL</DealScope>
+            <DealQuoteFor>CISCO</DealQuoteFor>
+            <DealType>BEHAVIORAL</DealType>
+            <SalesCoverage>UNKNOWN</SalesCoverage>
+            <PreGdrFlag>N</PreGdrFlag>
+        </PricingConsumer>
+    </DataArea>
+</ProcessPricingConsumer>
